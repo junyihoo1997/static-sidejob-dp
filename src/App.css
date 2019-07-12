@@ -1,0 +1,2026 @@
+
+/************************************************************************************************************************************************************************************/
+/* All Styling */
+/************************************************************************************************************************************************************************************/
+.AllStyle{
+  overflow: hidden;
+  background-color: #000000;
+  }
+/************************************************************************************************************************************************************************************/
+/************************************************************************************************************************************************************************************/
+
+
+/************************************************************************************************************************************************************************************/
+/* Navbar Styling */
+/************************************************************************************************************************************************************************************/
+#nav {
+  height: 50px;
+  background: transparent; 
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+  color: white;
+  padding: 0;
+  margin: 0;
+  padding-right: 100px;
+  padding-left: 10px;
+  letter-spacing: 0.15em;
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+#logo {
+  color: #fff;
+  padding: 25px;
+  padding-left:0px;
+  padding-right:0px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  transition: all ease .5s;
+  font-family: 'Raleway';
+  font-weight: 100;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#nav.shrink {
+  height: 95px;
+  transition: all ease 1.5s;
+  background: rgba(0, 0, 0, 0.651); 
+}
+
+#nav.shrink #logo {
+  padding: 10px;
+  padding-top: 35px;
+  transition: all ease .5s;
+}
+
+.Nav_Font_Color{
+  color: #fff; 
+}
+
+li{
+  display: inline-block;
+}
+
+.LinkStyle{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0 20px;
+}
+
+.LinkStyle:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0 20px;
+}
+
+li a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.cool-link{
+  font-size: 12px;
+}
+
+.cool-link::after{
+  display:block;
+  content: '';
+  border-bottom: solid 3px rgb(158, 20, 20);  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.cool-link:hover::after {
+  transform: scaleX(1);
+} 
+
+.DPIMG{
+  height: 80px;
+  padding-top: 0px;
+  margin-top: -55px;
+  margin-right: 20px;
+}
+
+.Navber_Toggle_Styling1{
+  justify-content: center;
+} 
+
+.toggle{
+  width: 100%;
+  padding: 0px 0px;
+  background: transparent;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  display: none;
+}
+
+.DPIMGHidden{
+  text-align: left;
+  display: none;
+  height: 80px;
+}
+
+.ToogleStyle{
+  text-align: right;
+  padding-top: 20px;
+  padding-left: 40vw;
+}
+
+.ToogleStyle2{
+  text-align: right;
+  padding-top: 20px;
+  padding-left: 40vw;
+}
+
+@media(max-width:1200px){
+  #nav {
+    height: 50px;
+    background: transparent; 
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease .5s;
+    color: white;
+    padding: 0;
+    margin: 0;
+    padding-right: 10px;
+    padding-left: 0px;
+    letter-spacing: 0.0em;
+    font-weight: bold;
+    margin-left: 0px;
+    text-align: justify;
+    padding-top: 5px;  
+  }
+
+  #logo {
+    padding: 10px;
+    padding-left:30px;
+    padding-right:0px;
+  }
+
+  #nav.shrink #logo {
+    padding: 30px;
+    padding-top: 35px;
+    transition: all ease .5s;
+    text-align: justify;
+  }
+
+  li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 15px;
+  }
+
+  .cool-link{    
+    margin-left: -10px;
+    justify-content: center;
+  }
+
+
+  .DPIMGHidden{ 
+   visibility: visible;
+   display: inline-block;
+  }
+
+  .DPIMG{
+    display: none!important;
+  }
+  
+  .toggle{
+    display: block;  
+  }
+
+  ul{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: none;
+  }
+
+ ul li{
+    /* display: block; */
+    text-align: left;
+  }
+
+  .active{
+    display: block!important;
+  }
+
+  .active2{
+    display: none!important;
+  }
+
+  .active3{
+    display: block!important;
+    visibility: visible!important;
+  }
+
+  #nav.shrink2 {
+    height: 207px;
+    transition: all ease .5s;
+    background: rgba(0, 0, 0, 0.651); 
+  }
+}
+
+.non-active{
+  
+}
+/************************************************************************************************************************************************************************************/
+/************************************************************************************************************************************************************************************/
+
+
+/************************************************************************************************************************************************************************************/
+/* Simply Divine Main Image Styling */
+/************************************************************************************************************************************************************************************/
+
+.Main_Image_Content_Height_Style{
+  width:100%;
+  max-width: 100%;
+  height: 100vh;
+  max-height: auto;
+  margin: auto;
+  background-image: url('./pictures/MainIMG.png');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 0px!important;
+}
+
+/* Third Image Styling */
+.Main_Image_Content_Height_Style3{
+  width:100%;
+  max-width: 100%;
+  height: 100vh;
+  max-height: auto;
+  margin: 0%;
+  background-image: url('./pictures/ThirdBackgroundIMG.png');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 0px!important;
+}
+
+/* Forth Image Styling */
+.Main_Image_Content_Height_Style4{
+  width:100%;
+  max-width: 100%;
+  height: 100vh;
+  max-height: auto;
+  margin: 0%;
+  background-image: url('./pictures/ForthBackgroundIMG.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 0px!important;
+}
+
+.Main_Font_Styling{
+  color: white;
+  font-size: 400%;
+  padding: 0;
+  text-align: left;
+  padding-top: 40%;
+  padding-bottom: 40px!important;
+  position: absolute;
+}
+
+.Main_Font_Styling2{
+  color: white;
+  font-size: 200%;
+  margin-top:-40%; 
+  text-align: left;
+  padding-top: 40%;
+  position: absolute;
+}
+
+.Main_hr_Styling{
+  border: 0; border-top: 1px solid rgb(255, 255, 255);
+  text-align: left;
+  width: 470px!important;
+  max-width: 70%!important;
+  min-width: 100px!important;
+  position: absolute;
+  margin-left: -100px;
+}
+
+.TestMain{
+  margin-left: 40px!important;
+}
+
+.Transparent_Div_Style_Main{
+  display: flex;
+  align-items: center; 
+  height: 100vh;
+}
+
+.Font_Styling_Main{
+  color: white;
+  font-size: 55px;;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: -20px;
+  font-weight: 100;
+  letter-spacing: 0.0em;
+  line-height: 1.0em;
+}
+
+.Font_Styling_Main2{
+  color: white;
+  font-size: 16px;
+  font-family: HelveNueThinNormal;
+  letter-spacing: 0.1em;
+  line-height: 2.5em;
+}
+/************************************************************************************************************************************************************************************/
+/************************************************************************************************************************************************************************************/
+
+
+/************************************************************************************************************************************************************************************/
+/* All Button Styling */
+/************************************************************************************************************************************************************************************/
+.Button_Position_Style{
+  display: inline-block;
+}
+
+.btnSignup{ 
+  text-transform: uppercase;
+  font-size:10px;
+  width:120px;
+  height:35px;
+  border-radius:80px;
+  line-height:0px;
+  text-align:center;
+  border: 1px solid #ffffff;
+  display:block;
+  text-decoration: none;
+  margin: 35px auto;
+  color:#ffffff;
+  position:relative;
+  overflow: hidden;
+  background: transparent;
+  transition :.3s;
+  outline: none;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+.btnSignup:hover{
+  background-color: #973a3a;
+  outline: none;
+}
+
+.btnSignup:focus{
+  outline: none;
+}
+
+.btnGetInTouch{
+  text-transform: uppercase;
+  font-size:12px;
+  width:140px;
+  height:35px;
+  border-radius:80px;
+  line-height:0px;
+  text-align:center;
+  border: 1px solid #ffffff;
+  display:block;
+  text-decoration: none;
+  margin: 35px auto;
+  color:#ffffff;
+  position:relative;
+  overflow: hidden;
+  background: transparent;
+  transition :.3s;
+  outline: none;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+.btnGetInTouch:hover{
+  background-color: #973a3a;
+  outline: none;
+}
+
+.btnGetInTouch:focus{
+  outline: none;
+}
+
+.btnMediaHighlights{  
+  text-transform: uppercase;
+  font-size:12px;
+  width:180px;
+  height:35px;
+  border-radius:80px;
+  line-height:0px;
+  text-align:center;
+  border: 1px solid #ffffff;
+  display:block;
+  text-decoration: none;
+  margin: 35px auto;
+  color:#ffffff;
+  position:relative;
+  overflow: hidden;
+  background: transparent;
+  transition :.3s;
+  outline: none;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+.btnMediaHighlights:hover{
+  background-color: #973a3a;
+  outline: none;
+}
+
+.btnMediaHighlights:focus{
+  outline: none;
+}
+
+.btnBeOurPartners{  
+  text-transform: uppercase;
+  font-size:12px;
+  width:180px;
+  height:35px;
+  border-radius:80px;
+  line-height:0px;
+  text-align:center;
+  border: 1px solid #ffffff;
+  display:block;
+  text-decoration: none;
+  margin: 35px auto;
+  color:#ffffff;
+  position:relative;
+  overflow: hidden;
+  background: transparent;
+  transition :.3s;
+  outline: none;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+.btnBeOurPartners:hover{
+  background-color: #973a3a;
+  outline: none;
+}
+
+.btnBeOurPartners:focus{
+  outline: none;
+}
+
+.btnViewOurMenu{
+  text-transform: uppercase;
+  font-size:12px;
+  width:170px;
+  height:35px;
+  border-radius:80px;
+  line-height:0px;
+  text-align:center;
+  border: 1px solid #ffffff;
+  display:block;
+  text-decoration: none;
+  margin: 35px auto;
+  color:#ffffff;
+  position:relative;
+  overflow: hidden;
+  background: transparent;
+  transition :.3s;
+  outline: none;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+.btnViewOurMenu:hover{
+  background-color: #973a3a;
+  outline: none;
+}
+
+.btnViewOurMenu:focus{
+  outline: none;
+}
+
+.btnAboutUs{  
+  text-transform: uppercase;
+  font-size:12px;
+  width:150px;
+  height:35px;
+  border-radius:80px;
+  line-height:0px;
+  text-align:center;
+  border: 1px solid #ffffff;
+  display:block;
+  text-decoration: none;
+  margin: 35px auto;
+  color:#ffffff;
+  position:relative;
+  overflow: hidden;
+  background: transparent;
+  transition :.3s;
+  outline: none;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+.btnAboutUs:hover{
+  background-color: #973a3a;
+  outline: none;
+}
+
+.btnAboutUs:focus{
+  outline: none;
+}
+
+.btnDiscoverExperience{  
+  text-transform: uppercase;
+  font-size:12px;
+  width:205px;
+  height:35px;
+  border-radius:80px;
+  line-height:0px;
+  text-align:center;
+  border: 1px solid #ffffff;
+  display:block;
+  text-decoration: none;
+  margin: 35px auto;
+  color:#ffffff;
+  position:relative;
+  overflow: hidden;
+  background: transparent;
+  transition :.3s;
+  outline: none;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.1em;
+}
+
+.btnDiscoverExperience:hover{
+  background-color: #973a3a;
+  outline: none;
+}
+
+.btnDiscoverExperience:focus{
+  outline: none;
+}
+/************************************************************************************************************************************************************************************/
+/************************************************************************************************************************************************************************************/
+
+
+/*****************************************************************************/
+/*FourImageExperienceSection Styling */
+/*****************************************************************************/
+@media only screen and (max-width: 1200px) {
+  .Picture_container{
+    min-width: 25%!important;
+    max-width: 50%!important;
+    max-height: 37vh!important;
+  }
+
+  .FourPicture_container{
+    max-height: 73vh!important;
+    }
+
+    .FourPicture_Maincontainer{
+      max-height: 105vh!important;
+    }
+}
+
+.FourPicture_container{
+  width: 4000px;
+  max-width: 100%;
+  height: 1300px;
+  max-height: 60vh;
+  margin: auto;  
+  }
+
+.Picture_container{
+  width: 100%;
+  height: 100%;
+  max-height: 100vh;
+  min-width: auto;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-bottom: -10px;
+  max-width: 25%;
+  min-height: inherit;
+}
+
+.MaxPicture{
+  width: 100%;
+  height: 100%;
+  max-width: auto;
+  min-width: auto;
+  max-height: auto;
+  min-height: auto;
+  transition: 8s;
+  position: absolute!important;
+  object-fit: cover;
+}
+
+.Black_blur_FOURIMG{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.801);
+  opacity: 0.7;
+  top: 0;  
+}
+
+.Picture_container:hover .MaxPicture{
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Transparent_Div_Style1{
+  height: 50vh;  
+  max-height: auto;
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.Transparent_Div_Style_Box1{
+  background-color: transparent;
+  width: 500px;
+  border: none;
+  padding: 50px;
+  margin: 0px;
+}
+
+.Font_Styling_FIMG{
+  font-family: HelveNueThinNormal;
+  text-align: center;
+  font-size: 18px!important;
+  letter-spacing: 0.1em!important;
+  line-height: 1.1em!important;
+  color: rgb(245, 250, 237)!important;
+}
+
+.Font_Styling{
+  color: white;  
+}
+
+.Font_Styling2{
+  color: #d6d6d6;
+}
+
+.Font_Styling3{
+  color: rgba(254, 252, 252, 0.61);
+}
+
+/* Second Image Styling */
+.Main_Image_Content_Height_Style2{
+  width:100%;
+  max-width: 100%;
+  height: 100vh;
+  max-height: auto;
+  margin: 0%;
+  background-image: url('./pictures/SecondBackgroundIMG.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-attachment: fixed;
+  padding: 0px!important;
+}
+
+.Font_Styling_FIMG{
+color: white;
+font-size: 200%;
+}
+
+.HR_Styling_FIMG{
+  border: 0; border-top: 2px solid rgb(255, 255, 255);
+  text-align: center;
+  width: 50px;
+  max-width: 50px;
+  min-width: 50px;  
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/*****************************************************************************/
+/* First Fixed Image and content styling */
+/*****************************************************************************/
+.Main_Image_Content_Height_Style5{
+  width:100%;
+  max-width: 100%;
+  height: 50vh;
+  max-height: auto;
+  margin: 0%;
+  background-image: url('./pictures/FirstFixedIMG.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  position: relative;
+  padding: 0px!important;
+  background-position: 49.4637% 0%
+}
+
+.Black_blur{
+  background-color: rgba(0, 0, 0, 0.654)!important; 
+  width: 100%;
+  height: 100%;
+}
+
+.Black_blur2{
+  background-color: rgba(0, 0, 0, 0.473)!important; 
+  width: 100%;
+  height: 100%;
+}
+
+.Font_Size1{
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+}
+
+.Font_Size1_Content{
+  font-size: 12px;
+  font-family: HelveNueThinNormal;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  line-height: 1.7em;
+}
+
+.Transparent_Div_Style2{
+  height: 50vh;;
+  max-height: auto;
+  display: flex;
+  align-items: center; 
+  }
+
+.Transparent_Div_Style_Box2{
+  background-color: transparent;
+  width: 500px;
+  border: none;
+  padding: 50px;
+  margin: 0px;
+  text-align: left;
+}
+
+.Transparent_Div_Style3{
+  height: 50vh;
+  max-height: auto;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.Transparent_Div_Style_Box3{
+  background-color: transparent;
+  width: 500px;
+  border: none;
+  padding: 50px;
+  margin: 0px;
+  padding-bottom: 600px;
+  padding-top: 600px;
+  text-align: left;
+}
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/*****************************************************************************/
+/* Second Fixed Image and content styling */
+/*****************************************************************************/
+.Main_Image_Content_Height_Style6{
+  width:100%;
+  max-width: 100%;
+  height: 50vh;
+  max-height: auto;
+  margin: 0%;
+  background-image: url('./pictures/SecondFixedIMG.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0px!important;
+  background-position: 41.125% 2.29453%;
+}
+
+.Font_Size2{
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+}
+
+.Font_Size2_Content{
+  font-size: 12px;
+  font-family: HelveNueThinNormal;
+  letter-spacing: 0.1em;
+  line-height: 1.7em;
+}
+
+.Font_Size3{
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+}
+
+.Font_Size3_Content{
+  font-size: 12px;
+  font-family: HelveNueThinNormal;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  line-height: 1.7em;
+}
+
+.Transparent_Div_Style4{
+  height: 50vh;
+  max-height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.Transparent_Div_Style_Box4{
+  background-color: transparent;
+  width: 500px;
+  border: none;
+  padding: 50px;
+  margin: 0px;
+  text-align: left;
+}
+
+.Transparent_Div_Style5{
+  height: 50vh;
+  max-height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.Transparent_Div_Style_Box5{
+  background-color: transparent;
+  width: 500px;
+  border: none;
+  padding: 50px;
+  margin: 0px;
+  text-align: left;
+}
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/*****************************************************************************/
+/* Third Fixed Image and content styling */
+/*****************************************************************************/
+.Main_Image_Content_Height_Style7{
+  width:100%;
+  max-width: 100%;
+  height: 50vh;
+  max-height: auto;
+  margin: 0%;
+  background-image: url('./pictures/ThirdFixedIMG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 61.75% 42.9761%;
+  position: relative;
+  padding: 0px!important;
+}
+
+.Christofle{
+  margin-right:10px;
+  height:70px; 
+}
+
+.Font_Size4{
+  font-size: 16px;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+}
+
+.Font_Size4_Content{
+  font-size: 12px;
+  font-family: HelveNueThinNormal;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  line-height: 1.7em;
+}
+
+.Font_Size5{
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+}
+
+.Font_Size5_Content{
+  font-size: 12px;
+  font-family: HelveNueThinNormal;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  line-height: 1.7em;
+}
+
+.Font_Size6{
+  font-size: 16px;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+}
+
+.Transparent_Div_Style7{
+  height: 50vh;
+  max-height: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.Transparent_Div_Style_Box7{
+  background-color: transparent;
+  width: 730px;
+  border: none;
+  padding: 50px;
+  margin: 0px;
+  text-align: center;  
+}
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/*****************************************************************************/
+/* Forth Fixed Image and content styling */
+/*****************************************************************************/
+.Main_Image_Content_Height_Style8{
+  width:100%;
+  max-width: 100%;
+  height: 50vh;
+  max-height: auto;
+  margin: 0%;
+  background-image: url('./pictures/ForthFixedIMG.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 0px!important;
+}
+
+.Input_Text_Styling{
+    background: transparent;
+    width: 94%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: white;
+    margin-bottom: 10px; 
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.Input_Text_Styling:hover{
+    background: white;
+    color: black;
+}
+
+::placeholder { 
+  color:#d8d4d4;
+  opacity: 1;
+}
+
+.Input_Text_Styling:hover::-webkit-input-placeholder {
+  color: black;
+}
+
+.Font_Styling_Gray{
+  color:#ffffff;
+}
+
+.Font_Styling_Gray2{
+  color:#d6d6d6;
+}
+
+.Font_Size7{
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+}
+
+.Font_Size7_Content{
+  font-size: 16px;
+  font-family: HelveNueThinNormal;
+  letter-spacing: 0.1em;
+  line-height: 1.7em;
+}
+
+.Transparent_Div_Style8{
+  height: 50vh;
+  max-height: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.Transparent_Div_Style_Box8{
+  background-color: transparent;
+  width: 690px;
+  border: none;
+  padding: 50px;
+  margin: 0px;
+  text-align: center;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/*****************************************************************************/
+/* Footer Styling
+/*****************************************************************************/
+
+/* footer color styling*/
+#message {
+  padding: 0px 0px 0px 0px;
+  background: #000000;  
+}
+
+.DP2{
+  width: 100px;
+}
+
+/*style align for the About us Legal Corporate to look same line with footer content*/
+.white{
+  color: rgb(202, 202, 202);
+  font-family: 'Raleway';
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+}
+
+.white1{
+  color: rgb(202, 202, 202);
+  font-family: 'Raleway';
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+}
+
+.white2{
+  color: rgb(202, 202, 202);
+  font-family: 'Raleway';
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+}
+
+/*footer content styling and text to the left*/
+.FooterNavColor{
+  text-align:center;
+  color: rgb(202, 202, 202);
+  position:relative;
+  background: #80294d00;
+  transition :.3s;
+  font-weight : bold;
+  font-family: HelveNueThinNormal;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  line-height: 1.1em;
+}
+
+.FooterNavColor2{
+  text-align:center;
+  color: rgb(255, 255, 255);
+  position:relative;
+  background: #80294d00;
+  transition :.3s;
+  font-weight : bold;
+  font-family: HelveNueThinNormal;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  line-height: 1.1em;
+}
+
+/*align footer content to the center */
+.FooterNavAlign{
+  align-content: center;
+  padding-bottom:10px;
+}
+
+.FooterNavAlign1{
+  align-content: center;
+  padding-bottom:10px;
+}
+
+.FooterNavAlign2{
+  align-content: center;
+  padding-bottom:10px;
+}
+
+.Font_Styling_Footer{
+  color: #808080;
+  font-family: HelveNueThinNormal;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  line-height: 1.7em;
+}
+
+.Footer_Hover{
+  margin-top: -80px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.Footer_Hover:after{
+  display:block;
+  content: '';
+  border-bottom: solid 3px rgb(158, 20, 20);  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.Footer_Hover:hover::after{
+  transform: scaleX(1);
+}
+
+.INDP{
+  margin-top:80px;
+  margin-bottom: -60px;
+  padding-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 70px;
+}
+
+.IGDP{
+  margin-top:80px;
+  margin-bottom: -60px;
+  padding-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 70px;
+}
+
+.FBDP{
+  margin-top:80px;
+  margin-bottom: -60px;
+  padding-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 70px;
+}
+    
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+/*****************************************************************************/
+/* Phone Layout */
+/*****************************************************************************/
+@media only screen and (max-width: 1024px) {
+  .Main_Image_Content_Height_Style2{
+    height: 154vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style3{
+    height: 154vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style4{
+    height: 154vh!important;
+    width:100vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Full{
+    height: 100%;
+    width:100%;
+    background-image: url('./pictures/SecondBackgroundIMG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: initial!important;
+    background-position-x: center!important;
+    
+  }
+
+  .Full2{
+    height: 100%;
+    width:100%;
+    background-image: url('./pictures/ThirdBackgroundIMG.png');
+    background-repeat: no-repeat;
+    background-attachment: initial!important;
+    background-position-x: -170.111px;
+    background-position-x: center!important;
+    
+  }
+
+  .Full3{
+    height: 100%;
+    width:100%;
+    background-image: url('./pictures/ForthBackgroundIMG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: initial!important;
+    background-position-x: -170.111px;
+    background-position-x: center!important;
+  }
+
+  .Main_Image_Content_Height_Style2{
+    height: 160vh!important;
+    width:100vw;  
+  }
+
+  .Main_Image_Content_Height_Style3{
+    height: 160vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style4{
+    height: 160vh!important;
+    width:100vw;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Font_Styling_Main2{
+    line-height: 1.2em;
+  }
+
+  .TestMain{
+    margin-left: 0px!important;
+  }
+
+  .Transparent_Div_Style{
+   margin-left: -60px;
+   
+  }
+
+  .Transparent_Div_Style1{
+    margin-left: -60px;
+   }
+
+  .Transparent_Div_Style2{
+    margin-left: -60px;
+  }
+
+  .Transparent_Div_Style3{
+    margin-left: -60px;
+  }
+
+  .Transparent_Div_Style4{
+    margin-left: -60px;
+  }
+
+  .Transparent_Div_Style5{
+    margin-left: -60px;
+  }
+
+  .Transparent_Div_Style6{
+    margin-left: -60px;
+  }
+
+  .Transparent_Div_Style7{
+    margin-left: -60px;
+  }
+
+  .Transparent_Div_Style8{
+    margin-left: -60px;
+  }
+
+  .Transparent_Div_Style_Box1{
+    margin-top: 400px;
+    width: 470px;
+  }
+
+  .Transparent_Div_Style_Box2{
+    margin-top: 400px;
+    width: 470px;
+  }
+
+  .Transparent_Div_Style_Box3{
+    margin-top: 400px;
+    width: 470px;
+  }
+
+  .Transparent_Div_Style_Box4{
+    margin-top: 400px;
+    width: 470px;
+  }
+
+  .Transparent_Div_Style_Box5{
+    margin-top: 400px;
+    width: 470px;
+  }
+
+  .Transparent_Div_Style_Box6{
+    margin-top: 400px;
+    width: 470px;
+  }
+
+  .Transparent_Div_Style_Box7{
+    margin-top: 400px;
+    width: 470px;
+  }
+
+  .Transparent_Div_Style_Box8{
+    margin-top: 400px;
+    width: 470px;
+  }
+
+  .Font_Size7{
+    font-size: 20px;
+  }
+
+  .Font_Size7_Content{
+    font-size: 16px;
+  }
+
+  .Main_Image_Content_Height_Style{
+    height: 100vh;
+    width:100vw;
+  }
+  
+  .Main_Image_Content_Height_Style2{
+    height: 100vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style3{
+    height: 100vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style4{
+    height: 100vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style5{
+    height: 100vh;
+    width:100vw;
+  }
+  
+  .Main_Image_Content_Height_Style6{
+    height: 100vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style7{
+    height: 100vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style8{
+    height: 100vh;
+    width:100vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Transparent_Div_Style_Box1{
+    margin-top: 300px!important;
+    width: 420px;
+  }
+
+  .Transparent_Div_Style_Box2{
+    margin-top: 150px!important;
+    width: 420px;
+  }
+
+  .Transparent_Div_Style_Box3{
+    margin-top: 350px!important;
+    width: 420px;
+  }
+
+  .Transparent_Div_Style_Box4{
+    margin-top: 250px!important;
+    width: 420px;
+  }
+
+  .Transparent_Div_Style_Box5{
+    margin-top: 400px!important;
+    width: 420px;
+  }
+
+  .Transparent_Div_Style_Box6{
+    width: 420px;
+  }
+
+  .Transparent_Div_Style_Box7{
+    margin-top: 200px!important;
+    width: 420px;
+  }
+
+  .Transparent_Div_Style_Box8{
+    margin-top: 400px;
+    width: 420px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+
+  .Transparent_Div_Style_Box1{
+    margin-top: 250px;
+  }
+
+  .Transparent_Div_Style_Box2{
+    margin-top: 250px;
+  }
+
+  .Transparent_Div_Style_Box3{
+    margin-top: 250px;
+  }
+
+  .Transparent_Div_Style_Box4{
+    margin-top: 250px;
+  }
+
+  .Transparent_Div_Style_Box5{
+    margin-top: 250px;
+  }
+
+  .Transparent_Div_Style_Box7{
+    margin-top: 300px;
+  }
+
+  .Main_Image_Content_Height_Style{
+    height: 100vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style2{
+    height: 150vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style3{
+    height: 150vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style4{
+    height: 150vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style5{
+    height: 75vh;
+    width:100vw;
+    margin-top: 218px;
+  }
+
+  .Main_Image_Content_Height_Style6{
+    height: 75vh;
+    width:100vw;
+    margin-top: 218px;
+  }
+
+  .Main_Image_Content_Height_Style7{
+    height: 75vh;
+    width:100vw;
+    margin-top: 218px;
+  }
+
+  .Main_Image_Content_Height_Style8{
+    height: 75vh;
+    width:100vw;
+  }
+
+  .Transparent_Div_Style_Box8{
+    margin-top: 250px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .Main_Image_Content_Height_Style{
+    height: 100vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style2{
+    height: 170vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style3{
+    height: 170vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style4{
+    height: 170vh;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style5{
+    height: 85vh;
+    width:100vw;
+    margin-top: 260px;
+  }
+
+  .Main_Image_Content_Height_Style6{
+    height: 85vh;
+    width:100vw;
+    margin-top: 260px;
+  }
+  
+  .Main_Image_Content_Height_Style7{
+    height: 85vh;
+    width:100vw;
+    margin-top: 260px;
+  }
+
+  .Main_Image_Content_Height_Style8{
+    height: 85vh;
+    width:100vw;
+  }
+
+  .Transparent_Div_Style_Box{
+    margin-top: 250px;
+  }
+
+  .Transparent_Div_Style_Box8{
+    margin-top: 250px;
+  }
+}
+
+@media only screen and (max-width: 411px){
+  .Main_Image_Content_Height_Style2{
+    height: 174vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style3{
+    height: 174vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style4{
+    height: 174vh!important;
+    width:100vw;
+  }
+  
+  .Main_Image_Content_Height_Style5{
+    height: 651px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style6{
+    height: 651px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style7{
+    height: 651px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style8{
+    height: 651px!important;
+    width:100vw;
+  }
+  
+  .Transparent_Div_Style_Box1{
+    margin-top: 300px;
+  }
+
+  .Transparent_Div_Style_Box2{
+    margin-top: 350px;
+  }
+
+  .Transparent_Div_Style_Box3{
+    margin-top: 350px;
+  }
+
+  .Transparent_Div_Style_Box4{
+    margin-top: 350px;
+  }
+
+  .Transparent_Div_Style_Box5{
+    margin-top: 350px;
+  }
+
+  .Transparent_Div_Style_Box6{
+    margin-top: 350px;
+  }
+
+  .Transparent_Div_Style_Box7{
+    margin-top: 350px;
+  }
+
+  .Transparent_Div_Style_Box8{
+    margin-top: 350px;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .Main_Image_Content_Height_Style2{
+    height: 165vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style3{
+    height: 165vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style4{
+    height: 165vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style5{
+    height: 674px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style6{
+    height: 674px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style7{
+    height: 674px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style8{
+    height: 674px!important;
+    width:100vw;
+  }
+  
+  .Transparent_Div_Style_Box1{
+    margin-top: 310px!important;
+  }
+
+  .Transparent_Div_Style_Box2{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box3{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box4{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box5{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box6{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box7{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box8{
+    margin-top: 350px!important;
+  }
+}
+
+
+@media only screen and (max-height: 667px){
+  .Main_Image_Content_Height_Style2{
+    height: 183vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style3{
+    height: 183vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style4{
+    height: 183vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style5{
+    height: 630px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style6{
+    height: 630px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style7{
+    height: 630px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style8{
+    height: 630px!important;
+    width:100vw;
+  }
+  
+  .Transparent_Div_Style_Box1{
+    margin-top: 310px!important;
+  }
+
+  .Transparent_Div_Style_Box2{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box3{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box4{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box5{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box6{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box7{
+    margin-top: 350px!important;
+  }
+
+  .Transparent_Div_Style_Box8{
+    margin-top: 350px!important;
+  }
+}
+
+
+@media only screen and (max-width: 360px){
+  .Main_Image_Content_Height_Style2{
+    height: 181vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style3{
+    height: 181vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style4{
+    height: 181vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style5{
+    height: 580px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style6{
+    height: 580px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style7{
+    height: 580px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style8{
+    height: 580px!important;
+    width:100vw;
+  }
+
+  .Transparent_Div_Style_Box1{
+    margin-top: 300px!important;
+  }
+
+  .Transparent_Div_Style_Box2{
+    margin-top: 310px!important;
+  }
+
+  .Transparent_Div_Style_Box3{
+    margin-top: 310px!important;
+  }
+
+  .Transparent_Div_Style_Box4{
+    margin-top: 310px!important;
+  }
+
+  .Transparent_Div_Style_Box5{
+    margin-top: 310px!important;
+  }
+
+  .Transparent_Div_Style_Box6{
+    margin-top: 310px!important;
+  }
+
+  .Transparent_Div_Style_Box7{
+    margin-top: 310px!important;
+  }
+
+  .Transparent_Div_Style_Box8{
+    margin-top: 310px!important;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .Main_Image_Content_Height_Style2{
+    height: 200vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style3{
+    height: 200vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style4{
+    height: 200vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style5{
+    height: 592px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style6{
+    height: 592px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style7{
+    height: 592px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style8{
+    height: 592px!important;
+    width:100vw;
+  }
+  
+  .Transparent_Div_Style_Box1{
+    margin-top: 300px!important;
+    width: 380px;
+  }
+
+  .Transparent_Div_Style_Box2{
+    margin-top: 335px!important;
+    width: 380px;
+  }
+
+  .Transparent_Div_Style_Box3{
+    margin-top: 300px!important;
+    width: 380px;
+  }
+
+  .Transparent_Div_Style_Box4{
+    margin-top: 335px!important;
+    width: 380px;
+  }
+
+  .Transparent_Div_Style_Box5{
+    margin-top: 300px!important;
+    width: 380px;
+  }
+
+  .Transparent_Div_Style_Box6{
+    margin-top: 335px!important;
+    width: 380px;
+  }
+
+  .Transparent_Div_Style_Box7{
+    margin-top: 335px!important;
+    width: 380px;
+  }
+
+  .Transparent_Div_Style_Box8{
+    margin-top: 335px!important;
+    width: 380px;
+  }
+}
+
+@media only screen and (height: 823px) and (width: 411px){
+  .Main_Image_Content_Height_Style2{
+    height: 163vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style3{
+    height: 163vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style4{
+    height: 163vh!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style5{
+    height: 670px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style6{
+    height: 670px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style7{
+    height: 670px!important;
+    width:100vw;
+  }
+
+  .Main_Image_Content_Height_Style8{
+    height: 670px!important;
+    width:100vw;
+  }
+  
+  .Transparent_Div_Style_Box1{
+    margin-top: 300px!important;
+  }
+
+  .Transparent_Div_Style_Box2{
+    margin-top: 330px!important;
+  }
+
+  .Transparent_Div_Style_Box3{
+    margin-top: 330px!important;
+  }
+
+  .Transparent_Div_Style_Box4{
+    margin-top: 330px!important;
+  }
+
+  .Transparent_Div_Style_Box5{
+    margin-top: 330px!important;
+  }
+
+  .Transparent_Div_Style_Box6{
+    margin-top: 330px!important;
+  }
+  
+  .Transparent_Div_Style_Box7{
+    margin-top: 330px!important;
+  }
+
+  .Transparent_Div_Style_Box8{
+    margin-top: 330px!important;
+  }
+} 
+
+/*****************************************************************************/
+/*****************************************************************************/
+
+
+
+
+
+
+
+
+
