@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static-sidejob-dp/static/css/main.92021992.chunk.css",
+    "main.js": "/static-sidejob-dp/static/js/main.dc66bc51.chunk.js",
+    "main.js.map": "/static-sidejob-dp/static/js/main.dc66bc51.chunk.js.map",
+    "runtime~main.js": "/static-sidejob-dp/static/js/runtime~main.03de0cf4.js",
+    "runtime~main.js.map": "/static-sidejob-dp/static/js/runtime~main.03de0cf4.js.map",
+    "static/css/2.bb9071ef.chunk.css": "/static-sidejob-dp/static/css/2.bb9071ef.chunk.css",
+    "static/js/2.2966e95e.chunk.js": "/static-sidejob-dp/static/js/2.2966e95e.chunk.js",
+    "static/js/2.2966e95e.chunk.js.map": "/static-sidejob-dp/static/js/2.2966e95e.chunk.js.map",
+    "index.html": "/static-sidejob-dp/index.html",
+    "precache-manifest.3f945112284528b87975ed8e4ca74941.js": "/static-sidejob-dp/precache-manifest.3f945112284528b87975ed8e4ca74941.js",
+    "service-worker.js": "/static-sidejob-dp/service-worker.js",
+    "static/css/2.bb9071ef.chunk.css.map": "/static-sidejob-dp/static/css/2.bb9071ef.chunk.css.map",
+    "static/css/main.92021992.chunk.css.map": "/static-sidejob-dp/static/css/main.92021992.chunk.css.map",
+    "static/media/Christofle.png": "/static-sidejob-dp/static/media/Christofle.42ab3c2d.png",
+    "static/media/DivinePalate.png": "/static-sidejob-dp/static/media/DivinePalate.7b11a691.png",
+    "static/media/DivinePalate2.png": "/static-sidejob-dp/static/media/DivinePalate2.0f6fe8d0.png",
+    "static/media/FirstCorporateEvents.jpg": "/static-sidejob-dp/static/media/FirstCorporateEvents.7abffc78.jpg",
+    "static/media/App.css": "/static-sidejob-dp/static/media/ThirdFixedIMG.2c652e70.jpg",
+    "static/media/ForthPrivateDining.png": "/static-sidejob-dp/static/media/ForthPrivateDining.4b0bcee6.png",
+    "static/media/SecondProductLaunch.jpg": "/static-sidejob-dp/static/media/SecondProductLaunch.cd6f2ad7.jpg",
+    "static/media/ThirdWeddingService.jpg": "/static-sidejob-dp/static/media/ThirdWeddingService.6bc207cb.jpg",
+    "static/media/font-awesome.min.css": "/static-sidejob-dp/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
