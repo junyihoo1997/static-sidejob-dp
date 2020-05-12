@@ -15,7 +15,7 @@ class SimplyDivineMainSection extends Component{
                   <div className="container TestMain">
                     <section className="wow slideInDown" data-wow-iteration="1" data-wow-offet="80" data-wow-delay=".5s">
                       <p className="Font_Styling_Main">SIMPLY DIVINE</p> <br/>
-                      <hr className="container Main_hr_Styling"/><br/>
+                      {/* <hr className="container Main_hr_Styling"/><br/> */}
                       <p className="Font_Styling_Main2">STAY AHEAD OF THE DINING CURVE WITH DIVINE PALATE</p>
                     </section>
                   </div>
